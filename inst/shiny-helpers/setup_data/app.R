@@ -81,9 +81,9 @@ ui <- fluidPage(
                         #              buttonLabel = "National Forest Inventory",
                         #              winTitle = "Please select NFI folder"),
 
-                        definePathsUI(id = "button7",
-                                      buttonLabel = "PHI",
-                                      winTitle = "Please select Priority Habitat folder")
+                        #definePathsUI(id = "button7",
+                        #              buttonLabel = "PHI",
+                        #              winTitle = "Please select Priority Habitat folder")
 
                         #definePathsUI(id = "button8",
                         #						buttonLabel = "Crop Map of England",
