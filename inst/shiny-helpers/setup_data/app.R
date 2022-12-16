@@ -70,11 +70,11 @@ ui <- fluidPage(
 
                         definePathsUI(id = "button4",
                                       buttonLabel = "OS Open Greenspace",
-                                      winTitle = "Please select OS Open Greenspace folder")
+                                      winTitle = "Please select OS Open Greenspace folder"),
 
-                         #'definePathsUI(id = "button5",
-                         #             buttonLabel = "CORINE",
-                         #             winTitle = "Please select CORINE folder")
+                        definePathsUI(id = "button5",
+                                      buttonLabel = "CORINE",
+                                      winTitle = "Please select CORINE folder")
           ),
           shiny::column(6,
                         #definePathsUI(id = "button6",
