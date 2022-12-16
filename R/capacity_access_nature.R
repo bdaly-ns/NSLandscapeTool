@@ -6,7 +6,7 @@
 #############################################
 
 ### NOTES
-## Eventually all the extra datasets could be built into the tool.
+## Eventually all the extra datasets could be built into the tool
 
 #' Access to Nature Capacity Model
 #'
