@@ -77,25 +77,25 @@ ui <- fluidPage(
                                       winTitle = "Please select CORINE folder")
           ),
           shiny::column(6,
-                        #definePathsUI(id = "button6",
-                        #              buttonLabel = "National Forest Inventory",
-                        #              winTitle = "Please select NFI folder"),
+                        definePathsUI(id = "button6",
+                                      buttonLabel = "National Forest Inventory",
+                                      winTitle = "Please select NFI folder"),
 
-                        #definePathsUI(id = "button7",
-                        #              buttonLabel = "PHI",
-                        #              winTitle = "Please select Priority Habitat folder")
+                        definePathsUI(id = "button7",
+                                      buttonLabel = "Priority Habitat Inventory",
+                                      winTitle = "Please select Priority Habitat folder"),
 
-                        #definePathsUI(id = "button8",
-                        #						buttonLabel = "Crop Map of England",
-                        #              winTitle = "Please select CROME folder"),
+                        definePathsUI(id = "button8",
+                                      buttonLabel = "Crop Map of England",
+                                      winTitle = "Please select CROME folder"),
 
-                        #definePathsUI(id = "button9",
-                        #              buttonLabel = "Terrain (DTM) data",
-                        #              winTitle = "Please select DTM folder"),
+                        definePathsUI(id = "button9",
+                                      buttonLabel = "Terrain (DTM) data",
+                                      winTitle = "Please select DTM folder"),
 
-                        #definePathsUI(id = "button10",
-                        #              buttonLabel = "Hedgerow data",
-                        #              winTitle = "Please select hedgerow folder")
+                        definePathsUI(id = "button10",
+                                      buttonLabel = "Hedgerow data",
+                                      winTitle = "Please select hedgerow folder")
           )
        ),
 
